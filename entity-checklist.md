@@ -18,4 +18,4 @@
    * para chaves primárias numéricas geradas por autoincremento, certifique-se de inserir ```@Min(1)``` nas anotações de validação e ```@GeneratedValue``` nas anotações de persistência;
    * se quiser utilizar chaves primárias alfanuméricas, certifique-se de que elas tenham um length pequeno, para não trazer problemas de desempenho. Senão, é melhor criar uma chave numérica gerada por autoincremento;
    * se for obrigatório ou viável utilizar chaves primárias ```String``` não se esqueça de definir o ```@Size(max)``` com o tamanho máximo de caracteres da chave. Isso evita inconsistências.
-7. Se a tabela possui alguma anotação @OneToMany, crie um construtor vazio para ela.
+7. Se a tabela possui alguma anotação ```@OneToMany```, crie um construtor vazio para ela.
