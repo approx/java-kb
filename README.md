@@ -1,2 +1,2 @@
-# java-troubleshooting
-A troubleshooting guide for Java, Spring &amp; Hibernate
+# Java Knowledge Base
+A knowledge base with best practices, checklists & troubleshooting guide for Java, Spring & Hibernate.
