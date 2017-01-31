@@ -10,3 +10,9 @@
    spring.datasource.password=
    ```
    
+# No session repository could be auto configured, check your configuration (session store type is 'null')
+
+Geralmente isso acontece quando você adiciona o Spring Session à sua classpath e não fornece nenhuma forma de armazenar a sessão.
+
+## Troubleshooting
+1. Se você ainda não definiu como a sessão será responsável armazenada, defina `spring.session.store-type=none` em seu arquivo `application.properties`;
